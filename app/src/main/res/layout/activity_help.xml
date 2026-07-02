@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/help2"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="Help Icon"/>
+
+            <TextView
+                style="@style/headerStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:text="Help &amp; Support" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How do I find a job?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Simply navigate to the 'Jobs' section on your dashboard. You can filter by category (Plumbing, Electrical, etc.) and location to find tasks nearby. Click on any job to see full details and application requirements. You can also set up job alerts for specific categories."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How can I trust a worker?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KaamSetu encourages a safe environment. Always check the worker's profile for their 'Verified' badge and read through their previous user reviews. Our verification process includes identity checks and skill assessments. We recommend chatting through the app's secure messenger before sharing any personal contact details."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How do I register as a service provider?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Go to your profile settings and select 'Switch to Worker Account'. You will need to provide valid ID proof, a professional photo, and details of your expertise. Once our team reviews and approves your documents, you can start listing your services and bidding on jobs."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: Are there any service fees?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registration for both users and workers is completely free. KaamSetu charges a small convenience fee (10% of the total project value) only when a job is successfully completed and paid for. This helps us maintain the platform and provide secure escrow services."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: What if I'm not satisfied with the work?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="If the work completed is not up to standard or as agreed upon, do not mark the job as 'Completed' yet. Contact our support team via 'Report an Issue' within 24 hours of the work completion. We will hold the escrow payment and mediate the situation based on our quality guidelines."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How do payments work?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KaamSetu uses a secure escrow system. When you hire someone, the payment is held securely by us. Once you confirm the job is finished satisfactorily, the funds are released to the worker's wallet, from where they can withdraw to their bank account."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How can I change my location settings?"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The app automatically detects your location to show nearby services. If you want to search in a different area, go to the Search tab and tap on the 'Location' icon in the top right. You can enter a new zip code or city name to explore workers elsewhere."/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

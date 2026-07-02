@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/about"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="12dp"
+                android:contentDescription="About Icon"/>
+
+            <TextView
+                style="@style/headerStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:text="About KaamSetu" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Philosophy"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="At KaamSetu, we believe that 'Kaam' (Work) is the most dignified way to connect people. Our philosophy is built on the word 'Setu' (Bridge)—a bridge that connects potential with opportunity, skill with necessity, and hard work with fair rewards.\n\nIn a world moving towards global digital services, we remain dedicated to the 'Local first' movement. We believe the person who can fix your circuit breaker or teach your child mathematics is likely living just a few streets away. KaamSetu is the tool that makes that local connection visible and professional."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Detailed Mission"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Empowering the Unorganized Sector: Most local workers like plumbers, carpenters, and daily wage earners rely on word-of-mouth. We give them a digital identity and a professional reputation that they can carry with them.\n\n2. Creating Safe Neighborhoods: By verifying our workers and providing a platform for genuine reviews, we ensure that when you invite someone into your home for a service, you have peace of mind.\n\n3. Financial Inclusion: Our integrated payment systems ensure that workers get paid instantly and fairly, reducing the friction of cash negotiations and helping them build a digital financial history."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Key Platform Features"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- Real-time Location Tracking: Find help that is literally minutes away from your doorstep.\n- Secure Chat Messenger: Discuss job details, share photos of the issue, and agree on terms without revealing your phone number prematurely.\n- Verified Badge System: Our multi-level verification process ensures that only skilled and genuine individuals are on the platform.\n- Dispute Resolution: A dedicated support team that acts as a fair mediator if things don't go as planned."
+                    android:layout_marginBottom="24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Impact on Society"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="8dp"/>
+                <TextView
+                    style="@style/contentStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Since its inception, KaamSetu has helped thousands of workers double their monthly income by reducing their 'idle time' between jobs. Simultaneously, we've saved countless hours for homeowners who no longer have to stand at street corners looking for laborers or ask ten neighbors for a recommendation.\n\nWe are not just an app; we are an ecosystem of trust."/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\nVersion: 1.0.4 (Stable)\n© 2026 KaamSetu Platforms Inc."
+                    android:textSize="14sp"
+                    android:textColor="@color/text_secondary"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

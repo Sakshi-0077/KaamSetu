@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/home_selector"/>
+
+    <item
+        android:id="@+id/navigation_save"
+        android:title="Save"
+        android:icon="@drawable/save_selector"/>
+
+    <item
+        android:id="@+id/navigation_msg"
+        android:title="ChatBot"
+        android:icon="@drawable/msg_selector"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_selector"/>
+
+</menu>

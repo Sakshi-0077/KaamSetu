@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#0A66C2</color>
+    <color name="primary_dark">#004182</color>
+    <color name="primary_light">#E1E9F4</color>
+    <color name="accent">#FF9800</color>
+
+    <!-- Background and Surface -->
+    <color name="white">#FFFFFF</color>
+    <color name="background">#FCF7F1</color> <!-- Warm cream background -->
+    <color name="surface">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#2E7D32</color>
+    <color name="error">#D32F2F</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Legacy / Others -->
+    <color name="bg_main">#FCF7F1</color>
+    <color name="purple_gradient_start">#6A1B9A</color>
+    <color name="purple_gradient_end">#E1BEE7</color>
+    <color name="chat_purple">#B266FF</color>
+    <color name="chat_bg_light">#F8F9FA</color>
+</resources>
